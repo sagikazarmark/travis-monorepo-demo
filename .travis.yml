@@ -1,3 +1,5 @@
 language: generic
 
 sudo: false
+
+script: echo $TRAVIS_COMMIT_RANGE
